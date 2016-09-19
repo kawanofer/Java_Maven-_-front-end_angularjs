@@ -1,0 +1,49 @@
+body {
+	font-family: tahoma, Arial, Verdana;
+	font-size: 14px;
+}
+
+.container{
+	padding: 50px;
+}
+
+.gridData {
+    text-align: center;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.resolution{
+	font-size: 10px;
+}
+
+.name{
+	font-style: italic;
+}
+
+/* 
+* MEDIA QUERY
+*/
+/* Wide VGA  */
+@media screen and (min-width: 200px) and (max-width: 720px) {
+	.ui-accordion-title {
+		background-color: #ff6600;
+	}
+}
+
+/* HD */
+@media screen and (min-width: 725px) and (max-width: 1280px) {
+	.ui-accordion-title {
+		background-color: #ccff33;
+	}
+}
+
+/* FULL HD */
+@media screen and (min-width: 1285px) and (max-width: 1920px) {
+	.ui-accordion-title {
+		background-color: #33cc33;
+	}
+}
+
